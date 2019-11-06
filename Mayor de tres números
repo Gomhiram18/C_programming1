@@ -1,24 +1,17 @@
-#include <stdio.h>
+else
 
-main()
+if  ( y > x && y > z )
 
-{
+printf(“El número mayor es: %d”, y);
 
-int x, y, z;
+else
 
-printf(“Escribe el primer número: “);
+if  ( z > x && z > y )
 
-scanf(“%d”,&x);
+printf(“El número mayor es: %d”, z);
 
-printf(“Escribe el segundo número: “);
+else
 
-scanf(“%d”,&y);
+printf(“Los tres números son iguales”);
 
-printf(“Escribe el tercer número: “);
-
-scanf(“%d”,&z);
-
-if ( x > y && x < z )
-
-printf(“El número mayor es: %d”,x);
-
+}
